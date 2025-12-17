@@ -16,6 +16,7 @@ public class WicketApplication extends WebApplication {
 
          // Configurações básicas
         getMarkupSettings().setStripWicketTags(true);
+        
 
         // URL limpa
         mountPage("/placar", HomePage.class);

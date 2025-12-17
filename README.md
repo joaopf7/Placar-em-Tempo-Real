@@ -56,68 +56,6 @@ Sistema web para gerenciamento e exibição de partidas esportivas com \*\*atual
 
 
 
-\## 📂 Estrutura do Projeto
-
-
-
-\# 🏟️ Placar em Tempo Real
-
-
-
-Sistema web para gerenciamento e exibição de partidas esportivas com \*\*atualização em tempo real\*\*, utilizando \*\*Jakarta EE\*\*, \*\*JAX-RS\*\*, \*\*JPA\*\*, \*\*Wicket\*\*, \*\*RabbitMQ\*\* e \*\*Redis\*\*.
-
-
-
----
-
-
-
-\## 🚀 Tecnologias Utilizadas
-
-
-
-\### Backend
-
-\- Java 17
-
-\- Jakarta EE 10
-
-\- JAX-RS (Jersey)
-
-\- JPA (Hibernate)
-
-\- EJB / CDI
-
-\- GlassFish 7.1
-
-\- Maven (WAR)
-
-
-
-\### Mensageria / Tempo Real
-
-\- RabbitMQ (eventos de domínio)
-
-\- Redis (Pub/Sub)
-
-\- SSE (Server-Sent Events)
-
-
-
-\### Frontend
-
-\- Apache Wicket 10
-
-\- HTML + CSS + JavaScript
-
-\- Atualização em tempo real via SSE
-
-
-
----
-
-
-
 \## ⚙️ Pré-requisitos
 
 
@@ -171,6 +109,8 @@ No `persistence.xml`:
 </persistence-unit>
 
 
+
+------
 
 
 
