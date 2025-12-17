@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Placar em Tempo Real</title>
+
+    
+
+</head>
+
+<body>
+<div class="container">
+
+    <h1>🏟️ Placar em Tempo Real</h1>
+
+    <div id="status-conexao" class="status online">
+        🟢 Conectado
+    </div>
+
+    <table class="placar-table">
+        <thead>
+        <tr>
+            <th>Time A</th>
+            <th>Placar</th>
+            <th>Time B</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr wicket:id="jogos">
+            <td wicket:id="timeA"></td>
+            <td class="placar-cell">
+                <span wicket:id="placarA" class="placar placarA"></span>
+                <span class="x">x</span>
+                <span wicket:id="placarB" class="placar placarB"></span>
+            </td>
+            <td wicket:id="timeB"></td>
+            <td wicket:id="status" class="status-jogo"></td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<script src="js/placar-sse.js"></script>
+</body>
+</html>

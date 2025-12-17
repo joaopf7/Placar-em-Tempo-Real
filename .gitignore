@@ -1,0 +1,26 @@
+# Maven
+target/
+*.log
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (se usar depois)
+node_modules/
+
+# Wicket temp
+wicket-*
+
+# Logs do GlassFish
+*.log
